@@ -4,6 +4,16 @@
     <contextParameter comment="path to upload the result file to on Dropbox" internalId="_l3NDMTiYEeuwqIe4ZPuevQ" name="parameter_upload_path" prompt="parameter_upload_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/CloudRun_CustomersPerMovie.csv"/>
     <contextParameter comment="" internalId="_ihoP8ODhEeymEq90FSfw0w" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="sl.BIqqAJWEi9YD8DSxDS1GhIZBq8qS0vdXKH9rSGHHBw1jioUTWVYnZqCB4j9qZe8-W4KUTxqQ807sdHmqg3KsypNnF8UL-ZTX9tjGBuNsMO9J7sQCBp3xQbm31a1UsqRLhbkQMSQ"/>
   </context>
+  <context confirmationNeeded="false" name="TMC_WPE_Dev">
+    <contextParameter comment="path of the log file to be downloaded from Dropbox" internalId="_l3NDMDiYEeuwqIe4ZPuevQ" name="parameter_download_path" prompt="parameter_download_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Formation_Talend_Cloud/Resultats_Visionnage_Video_filtre_Dev.csv"/>
+    <contextParameter comment="path to upload the result file to on Dropbox" internalId="_l3NDMTiYEeuwqIe4ZPuevQ" name="parameter_upload_path" prompt="parameter_upload_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/CloudRun_CustomersPerMovie.csv"/>
+    <contextParameter comment="" internalId="_ihoP8ODhEeymEq90FSfw0w" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="sl.BIqqAJWEi9YD8DSxDS1GhIZBq8qS0vdXKH9rSGHHBw1jioUTWVYnZqCB4j9qZe8-W4KUTxqQ807sdHmqg3KsypNnF8UL-ZTX9tjGBuNsMO9J7sQCBp3xQbm31a1UsqRLhbkQMSQ"/>
+  </context>
+  <context confirmationNeeded="false" name="TMC_WPE_Prod">
+    <contextParameter comment="path of the log file to be downloaded from Dropbox" internalId="_l3NDMDiYEeuwqIe4ZPuevQ" name="parameter_download_path" prompt="parameter_download_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Formation_Talend_Cloud/Resultats_Visionnage_Video_filtre_Prod.csv"/>
+    <contextParameter comment="path to upload the result file to on Dropbox" internalId="_l3NDMTiYEeuwqIe4ZPuevQ" name="parameter_upload_path" prompt="parameter_upload_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/CloudRun_CustomersPerMovie.csv"/>
+    <contextParameter comment="" internalId="_ihoP8ODhEeymEq90FSfw0w" name="connection_dropbox_access_token" prompt="connection_dropbox_access_token?" promptNeeded="false" repositoryContextId="_UmAHsH-UEeSh_srZ_0iReQ" type="id_String" value="sl.BIqqAJWEi9YD8DSxDS1GhIZBq8qS0vdXKH9rSGHHBw1jioUTWVYnZqCB4j9qZe8-W4KUTxqQ807sdHmqg3KsypNnF8UL-ZTX9tjGBuNsMO9J7sQCBp3xQbm31a1UsqRLhbkQMSQ"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -47,7 +57,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:2SCFLUCz4KYKfRmhA/XtNO/lgqzq+ydr+V9pxSuQ"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:71WJEHIa+MMP1Nhmc8lwqM4mCLAXeQWmaHMWqALn"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -82,7 +92,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:QFIs0wzNurhEa+5T7Fw4QMjnmWBYnNqhE49YZjru"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:uScwZWzuHwdwMw9s2FjRCs0Cqqap4VqxaGV6etXw"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -379,13 +389,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7d9c6ca9-c76f-4251-a958-6fb9e3c48500"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FNUS6mtLIHyYvOR88Vbqc6MjLLMvrd7tkaaJQdMgmrnZN35wlz2xYG8SxH1rBt7AVDdvJwrI1/vj&#13;
-/QkI3WsQGg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_de1af25c-8254-4b8c-a7d3-6e087a0f713c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>abo4z/957o/EBm5onRFGWCTo8/4ARqTQUQzNpwpRZcuO79xbvdwXnEE/LpMzNgo7jCEzsYA2RaL7&#13;
-dJa+UGt+jg==</DigestValue></Reference></SignedInfo><SignatureValue>HlY7mxx/uULChNi82LZJjS9SoipejQAbOcz/hkb4kaSHMrYwmZqPYh3GkF+22lDXjs0ej3xGknjR&#13;
-g9WuSFVIlykcZp/T5u4/wYJQ8mdgwEg+JC5dL/hr12N3sN54Ka0SePXy4n37aoZL8t6Cf12CICKu&#13;
-4oUYSvGjFw462X/On2uS0DIvJ141bH5fvTNH5BFWvAAXcTcEz2n6WMvKrLVwHoVui/En7aXoROPB&#13;
-Xrf2tlOls+Wd/dNQNmM+1tBmsiVQgz9ej/MCIWYR/3xz+ml7K/wVEPrGAoWhgqGuOuUvu2M7ksD1&#13;
-MDNfs/4GFUAFJAbgbJne/rgi8M2vC94w9Pxb3w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fbc83613-ab6c-470e-b279-57ca1e72cc62"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9JXihQwJXgnPSwGiSpYjKaPorvdgw5XUWL0m/vNTAtTOCVghjXExdB+O0mDf8GNOBHOJJS4Xz07m&#13;
+VZcY9IJs3A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8d506d96-de60-48fe-81be-f47229a7ae46"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FWGkE7em6hqzzJyyRVgoi7KCc23yD0B0s/Mb9+Zh0oofXJYlfK4+JxcxgQHABiyZ9zse9UmUorGJ&#13;
+x6e/kN9sUg==</DigestValue></Reference></SignedInfo><SignatureValue>bACQwkgHH8GADl9TKllmiJH8syTKEfKYmySyqow67dC6d/17W0xjaifcSbpfAlZknuMKdqieKfZe&#13;
+RKPIZ7s7xRYTTe55gax4J9uxLI+F3CQpXDHCBfifOT0xhcbICMVHfShAhZAbxamm4BUy9Zj196sW&#13;
+akVNzmGZhFCVyKHQlazfLFxH1PULxkhWLcgSCaGRG1hEdzBXe2ps+YvEAuyXbNbUV5sRaw8sOEEY&#13;
+DPzFlzbWe0Pzd5bvLqucJX8Ji4kEGpzNUIPN3Gr4+s3oSyABJ+6IkB6V68nT8/ajXJ+WKA8OGS8c&#13;
+3cgRHozRwP6rW9MgpDWz54KUHyeidLt6AAEWTw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -407,4 +417,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_de1af25c-8254-4b8c-a7d3-6e087a0f713c" Target="#_7d9c6ca9-c76f-4251-a958-6fb9e3c48500"><Timestamp>2022-05-31 12:59:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8d506d96-de60-48fe-81be-f47229a7ae46" Target="#_fbc83613-ab6c-470e-b279-57ca1e72cc62"><Timestamp>2022-05-31 13:42:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
